@@ -1,0 +1,31 @@
+{
+  "name": "jest-coverage-bug",
+  "version": "1.0.0",
+  "description": "Proof of concept for a Jest coverage bug",
+  "main": "index.js",
+  "scripts": {
+    "test-good": "node runtests.js --no-cache",
+    "test-bad": "node runtests.js --no-cache --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieumg/jest-coverage-bug.git"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Mathieu M-Gosselin <mathieumg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathieumg/jest-coverage-bug/issues"
+  },
+  "homepage": "https://github.com/mathieumg/jest-coverage-bug#readme",
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "jest": "^16.0.2"
+  }
+}
